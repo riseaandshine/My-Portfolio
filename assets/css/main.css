@@ -4801,5 +4801,29 @@ input, select, textarea {
 		}
 		}
 		
+		#intro .actions {
+		display: flex;
+		justify-content: center;
+		margin-top: 2rem;
+		}
 
+		#intro .actions .button.icon.solo {
+		width: 3.5rem;
+		height: 3.5rem;
+		padding: 0;
+		background: none;
+		border: 2px solid #fff;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: none;
+		}
+
+		#intro .actions .button.icon.solo i {
+		font-size: 1.2rem;
+		color: white;
+		line-height: 1;
+		margin: 0; /* ensure no vertical offset */
+		}
 	}
