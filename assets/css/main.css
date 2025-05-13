@@ -4788,6 +4788,41 @@ input, select, textarea {
 		}
 		}
 
+		@media screen and (max-width: 768px) {
+		.pagination {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 0.75rem;
+			margin: 2rem auto;
+			padding: 0 1rem;
+			text-align: center;
+		}
+
+		.pagination .page {
+			font-size: 1rem;
+			padding: 0.5rem 1rem;
+			border: 2px solid rgba(255, 255, 255, 0.3);
+			border-radius: 6px;
+			color: #fff;
+			text-decoration: none;
+			transition: all 0.2s ease;
+			background: transparent;
+		}
+
+		.pagination .page:hover {
+			background-color: rgba(255, 255, 255, 0.1);
+			border-color: #fff;
+		}
+
+		.pagination .page.active {
+			background-color: #fff;
+			color: #1e252d;
+			border-color: #fff;
+		}
+		}
+
         #home {
 		position: relative;
 		padding-top: 2rem;    /* pushes content down */
