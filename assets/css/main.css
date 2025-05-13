@@ -4748,39 +4748,57 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 768px) {
-		#intro .actions {
-			display: block;
-			margin-top: 2rem;
+		#intro h1 {
+			position: relative;
+			top: auto;
+			left: auto;
+			transform: none;
+			font-size: 2rem;
+			color: #242323;
+			margin: 1rem 0 0 0;
 			text-align: center;
 		}
 
-		#intro .actions .button {
+		#intro .social-links {
+			transform: none;
+			margin-top: 1rem;
 			padding: 0;
-			border: none;
-			background: none;
-			box-shadow: none;
-			font-size: 0;
+			text-align: center;
+		}
+
+		#intro .social-links li {
+			display: inline-block;
+			margin: 0 0.5rem;
+		}
+
+		#intro .actions {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 2rem;
+		}
+
+		#intro .actions .button {
 			width: 3rem;
 			height: 3rem;
+			padding: 0;
+			font-size: 0;
+			background: none;
+			border: 2px solid #fff;
 			border-radius: 100%;
-			display: inline-flex;
+			display: flex;
 			align-items: center;
 			justify-content: center;
+			box-shadow: none;
 		}
 
 		#intro .actions .button:before {
-			content: "\f103"; /* FontAwesome down arrow */
+			content: "\f103"; /* Font Awesome down arrow */
 			font-family: "Font Awesome 5 Free";
 			font-weight: 900;
 			font-size: 1.5rem;
 			color: white;
 		}
-		}
-
-        #home {
-		position: relative;
-		padding-top: 2rem;    /* pushes content down */
-		margin-top: -2rem;    /* pulls the scroll target up */
 		}
 		
 
