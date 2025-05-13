@@ -3421,7 +3421,7 @@ input, select, textarea {
 		position: absolute;
 		top: 56%;
 		left: 50%;
-		transform: translate(85%, -240%);
+		transform: translate(85%, -170%);
 		font-size: 3rem;
 		line-height: 1;
 		z-index: 2;
