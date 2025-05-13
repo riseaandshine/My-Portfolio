@@ -3408,7 +3408,7 @@ input, select, textarea {
 		}
 
 		#intro .social-links a {
-		color: #353030; /* dark grey */
+		color: #423e3e; /* dark grey */
 		text-decoration: none;
 		transition: color 0.8s ease;
 		}
@@ -3425,7 +3425,7 @@ input, select, textarea {
 		font-size: 3rem;
 		line-height: 1;
 		z-index: 2;
-		color: #242323;
+		color: #2b2828;
 		}
 
 		#intro h1 {
