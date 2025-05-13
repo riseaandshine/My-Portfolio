@@ -4749,26 +4749,36 @@ input, select, textarea {
 
 		@media screen and (max-width: 768px) {
 		#intro .actions {
-			margin-top: 2rem;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			margin-top: 1.5rem;
+			width: 100%;
+			position: relative;
 		}
 
 		#intro .actions li {
 			margin: 0;
 		}
 
-		#intro .button.icon.solo {
+		#intro .actions .button {
 			width: 3.5rem;
 			height: 3.5rem;
-			line-height: 3.5rem;
-			font-size: 1.2rem;
-			border-radius: 100%;
+			border-radius: 50%;
+			font-size: 1.5rem;
 			padding: 0;
-			display: inline-flex;
-			justify-content: center;
+			display: flex;
 			align-items: center;
+			justify-content: center;
+			background: transparent;
+			border: 2px solid white;
+		}
+
+		#intro .actions .button:before {
+			content: "\f103"; /* FontAwesome down arrow */
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			color: white;
 		}
 		}
 
