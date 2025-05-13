@@ -4749,9 +4749,44 @@ input, select, textarea {
 
 		@media screen and (max-width: 768px) {
 		#intro .actions {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1.5rem;
+			width: 100%;
+			position: relative;
+		}
+
+		#intro .actions li {
+			margin: 0;
+		}
+
+		#intro .actions .button {
+			width: 3.5rem;
+			height: 3.5rem;
+			border-radius: 50%;
+			font-size: 1.5rem;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background: transparent;
+			border: 2px solid white;
+		}
+
+		#intro .actions .button:before {
+			content: "\f103"; /* FontAwesome down arrow */
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			color: white;
+		}
+		}
+
+		@media screen and (max-width: 768px) {
+		#intro .actions {
 			display: none !important;
 		}
-}
+		}
 
         #home {
 		position: relative;
